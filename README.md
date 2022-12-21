@@ -58,7 +58,7 @@ This bar chart showcases the percent difference in hospitalization during treatm
 
 ### Understanding the statistical significance of the visualization above:
 
-In this section, I used a Monte Carlo approach by randomly sampling hundreds of thousands of times to estimate the likelihood of getting a distribution similar to that of our observed (tickborne antibiotic hospitalization) data. The output of this random sampling is visualized with the frequency diagrams for each antibiotic. The result of this is an estimated p-value which can be used to assess the statistical significance of the data. Generally, a p-value of less than 0.05 is considered significant enough to reject the null hypotheses (the assumption there is no relationship between the variables and that the difference is just due to sampling). After estimating the p-values, I calculated the actual mathematical p-values using the [binomial test](https://en.wikipedia.org/wiki/Binomial_test). The comparison of these is shown in the bottom right corner of each visualization. They are all statistically significant except for Amoxicillin. 
+In this section, I used a [Monte Carlo method](https://en.wikipedia.org/wiki/Monte_Carlo_method) of randomly sampling hundreds of thousands of times to estimate the likelihood of getting a distribution similar to that of our observed (tickborne antibiotic hospitalization) data. The output of this random sampling is visualized with the frequency diagrams for each antibiotic. The result of this is an estimated p-value which can be used to assess the statistical significance of the data. Generally, a p-value of less than 0.05 is considered significant enough to reject the null hypotheses (the assumption there is no relationship between the variables and that the difference is just due to sampling). After estimating the p-values, I calculated the actual mathematical p-values using the [binomial test](https://en.wikipedia.org/wiki/Binomial_test). The comparison of these is shown in the bottom right corner of each visualization. They are all statistically significant except for Amoxicillin. 
 
 Monte Carlo Simulation <br> Using a Normal Distribution as an Estimator of the Binomial Distribution    |  Statistical Significance Comments
 :-------------------------:|:-------------------------:
@@ -75,7 +75,7 @@ These histograms serve to illustrate that the likelihood of tickborne hospitaliz
 ## Investigation: Tickborne Disease Adverse Events During Treatment Over Time
 
 <p align="center">
-<img src="./svg/events_over_time.svg" width="900">
+<img src="./svg/events_over_time.svg" width="800">
 </p>
 
 The graphic above shows how reported adverse events to antibiotic therapy for tickborne disease has changed over time. There was a 118 case rise in reported events between 2014 and 2017. 
