@@ -2,7 +2,7 @@
 
 This research aims to critically assess the adverse effects of antibiotic treatment for tickborne disease. Through the use of precise data visualizations, I hope to shed light on the threat that tickborne illnesses pose to our society, and in doing so, help contribute to the formation of future health policies. Countless people are currently struggling with these zoonotic, tickborne infections. Many do not recover in the manner that medical professionals expect, leaving them searching for relief from their unrelenting symptoms. These are the individuals most at risk of experiencing a dangerous, sometimes life-threatening, adverse event from extended antibiotic treatment. The data for this project was obtained from the FAERS database (FDA Adverse Events Reporting System) at [FIS FDA](https://fis.fda.gov). 
 
-[<img src="./gif/tick.gif" width="300"/>]()
+[<img src="https://github.com/RonanChance/Data-Viz/blob/master/svg/gif/tick.gif" width="100"/>](https://github.com/RonanChance/Data-Viz/blob/master/svg/gif/tick.gif)
 
 In this research I define tick-borne disease as any of the following:
 - Lyme Disease (any Borrelia)
