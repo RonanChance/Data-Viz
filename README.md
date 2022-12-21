@@ -1,6 +1,6 @@
 # An Analysis of Tickborne Disease Treatment
 
-This project is exploring the severe reactions that occur during antibiotic treatment of tick-borne disease. The data is retrieved from FAERS (FDA Adverse Events Reporting System) at [FIS FDA](https://fis.fda.gov). 
+This research aims to critically assess the adverse effects of antibiotic treatment for tickborne disease. Through the use of precise data visualizations, I hope to shed light on the threat that tickborne illnesses pose to our society, and in doing so, help contribute to the formation of future health policies. Countless people are currently struggling with these zoonotic, tickborne infections. Many do not recover in the manner that medical professionals expect, leaving them searching for relief from their unrelenting symptoms. These are the individuals most at risk of experiencing a dangerous, sometimes life-threatening, adverse event from extended antibiotic treatment. The data for this project was obtained from the FAERS database (FDA Adverse Events Reporting System) at [FIS FDA](https://fis.fda.gov). 
 
 In this research I define tick-borne disease as any of the following:
 - Lyme Disease (any Borrelia)
@@ -75,6 +75,10 @@ These histograms serve to illustrate that the likelihood of tickborne hospitaliz
 <p align="center">
 <img src="./svg/events_over_time.svg" width="900">
 </p>
+
+The graphic above shows how reported adverse events to antibiotic therapy for tickborne disease has changed over time. There was a 118 case rise in reported events between 2014 and 2017. 
+
+Hypothesis: The Covid-19 pandemic greatly reduced the number of visits to ambulatory practices [decreased by nearly 60%](https://www.commonwealthfund.org/publications/2020/apr/impact-covid-19-outpatient-visits#:~:text=The%20number%20of%20visits%20to%20ambulatory%20practices%20declined%20nearly%2060,was%20seen%20before%20the%20pandemic.). It is possible that the decrease in reported adverse events to tickborne antibiotic treatment continued to fall since 2020 because of deferred clinician visits. 
 
 Many researchers have noted that tickborne disease is on the rise. Climate change and global warming are frequently speculated to be the likely culprit for the increase in Lyme disease infections (and other tickborne diseases). The warmer temperatures have been better for tick reproduction and have increased their survivability during the winter. Troy Cullen wrote an article about this issue [New Jersey Hills](https://www.newjerseyhills.com/echoes-sentinel/opinion/letters_to_the_editor/letter-climate-change-and-lyme-disease-how-global-warming-is-already-wreaking-havoc-on-new/article_9e06ed84-676b-5c4a-9d7c-c82d2ef05387.html). 
 
