@@ -58,6 +58,8 @@ This bar chart showcases the percent difference in hospitalization during treatm
 
 ### Understanding the statistical significance of the visualization above:
 
+In this section, I used a Monte Carlo approach by randomly sampling hundreds of thousands of times to estimate the likelihood of getting a distribution similar to that of our observed (tickborne antibiotic hospitalization) data. The output of this random sampling is visualized with the frequency diagrams for each antibiotic. The result of this is an estimated p-value which can be used to assess the statistical significance of the data. Generally, a p-value of less than 0.05 is considered significant enough to reject the null hypotheses (the assumption there is no relationship between the variables and that the difference is just due to sampling). After estimating the p-values, I calculated the actual mathematical p-values using the [binomial test](https://en.wikipedia.org/wiki/Binomial_test). The comparison of these is shown in the bottom right corner of each visualization. They are all statistically significant except for Amoxicillin. 
+
 Monte Carlo Simulation <br> Using a Normal Distribution as an Estimator of the Binomial Distribution    |  Statistical Significance Comments
 :-------------------------:|:-------------------------:
 ![](./svg/histograms/histogramDoxycycline.svg)  | - No simulated data points were less than the left bound or greater than the right bound.  <br><br>- Mathematically computed binomial p-value is < 0.001. We **can** safely reject the null hypothesis.<br><br>- Tickborne Doxycycline hospitalization **is** statistically significant compared to random. 
