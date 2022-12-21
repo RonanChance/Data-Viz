@@ -1,8 +1,9 @@
 # An Analysis of Tickborne Disease Treatment ![ticksmall >](https://user-images.githubusercontent.com/43863449/208801018-98c438d1-93f6-483c-aedf-4f5210a4a0d3.gif)
+![tick](https://user-images.githubusercontent.com/43863449/208801413-f82efcf0-7c1b-4abd-8098-a32f09c28df2.gif)
 
 This research aims to critically assess the adverse effects of antibiotic treatment for tickborne disease. Through the use of precise data visualizations, I hope to shed light on the threat that tickborne illnesses pose to our society, and in doing so, help contribute to the formation of future health policies. Countless people are currently struggling with these zoonotic, tickborne infections. Many do not recover in the manner that medical professionals expect, leaving them searching for relief from their unrelenting symptoms. These are the individuals most at risk of experiencing a dangerous, sometimes life-threatening, adverse event from extended antibiotic treatment. The data for this project was obtained from the FAERS database (FDA Adverse Events Reporting System) at [FIS FDA](https://fis.fda.gov). 
 
-<img src="https://github.com/RonanChance/Data-Viz/blob/master/svg/gif/ticksmall.gif" width="50" height="50" />
+<img src="[https://github.com/RonanChance/Data-Viz/blob/master/svg/gif/ticksmall.gif](https://user-images.githubusercontent.com/43863449/208801413-f82efcf0-7c1b-4abd-8098-a32f09c28df2.gif)" width="50" height="50" />
 
 ![test]("./svg/gif/ticksmall.gif")
 
