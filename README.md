@@ -34,7 +34,6 @@ The ultimate questions & goals this project seeks to address are:
 
 2. Is the quantity of reported adverse events substantially growing over time? Are tick-borne diseases a worsening epidemic? 
 
-
 ## Data and Methods
 
 Data was collected by querying the FDA FAERS system for each respective antibiotic and viewing the ‘Listing of Cases’ option. This provides an excel sheet with information on each adverse reaction to the specified antibiotic. By repeating this process for each antibiotic, I collected excel sheets that could be put into pandas data frames in python. After joining them, 149,497 individual cases comprise my current dataset. Further processing was done by extracting only the case reports related to tickborne disease. 
@@ -58,7 +57,7 @@ This bar chart showcases the percent difference in hospitalization during treatm
 
 ### Understanding the statistical significance of the visualization above:
 
-In this section, I used a [Monte Carlo method](https://en.wikipedia.org/wiki/Monte_Carlo_method) of randomly sampling hundreds of thousands of times to estimate the likelihood of getting a distribution similar to that of our observed (tickborne antibiotic hospitalization) data. The output of this random sampling is visualized with the frequency diagrams for each antibiotic. The result of this is an estimated p-value which can be used to assess the statistical significance of the data. Generally, a p-value of less than 0.05 is considered significant enough to reject the null hypotheses (the assumption there is no relationship between the variables and that the difference is just due to sampling). After estimating the p-values, I calculated the actual mathematical p-values using the [binomial test](https://en.wikipedia.org/wiki/Binomial_test). The comparison of these is shown in the bottom right corner of each visualization. They are all statistically significant except for Amoxicillin. 
+In this section, I used a [Monte Carlo method](https://en.wikipedia.org/wiki/Monte_Carlo_method) of randomly sampling hundreds of thousands of times to estimate the likelihood of getting a distribution similar to that of our observed (tickborne antibiotic hospitalization) data. The output of this random sampling is visualized with the frequency diagrams for each antibiotic. The result of this is an estimated p-value which can be used to assess the statistical significance of the data. Generally, a p-value of less than 0.05 is considered significant enough to reject the null hypothesis (the assumption there is no relationship between the variables and that the difference is just due to sampling). After estimating the p-values, I calculated the actual mathematical p-values using the [binomial test](https://en.wikipedia.org/wiki/Binomial_test). The comparison of these is shown in the bottom right corner of each visualization. They are all statistically significant except for Amoxicillin. 
 
 Monte Carlo Simulation <br> Using a Normal Distribution as an Estimator of the Binomial Distribution    |  Statistical Significance Comments
 :-------------------------:|:-------------------------:
@@ -78,21 +77,27 @@ These histograms serve to illustrate that the likelihood of tickborne hospitaliz
 <img src="./svg/events_over_time.svg" width="800">
 </p>
 
-The graphic above shows how reported adverse events to antibiotic therapy for tickborne disease has changed over time. There was a 118 case rise in reported events between 2014 and 2017. 
+The graphic above shows how reported adverse events to antibiotic therapy for tickborne disease has changed over time. There was a 163 case rise in yearly reported events between 2003 and 2017. 
 
 During the Covid-19 pandemic, visits to ambulatory practices [decreased by nearly 60%](https://www.commonwealthfund.org/publications/2020/apr/impact-covid-19-outpatient-visits#:~:text=The%20number%20of%20visits%20to%20ambulatory%20practices%20declined%20nearly%2060,was%20seen%20before%20the%20pandemic.). It is possible that the decrease in reported adverse events to tickborne antibiotic treatment continued to fall since 2020 because of deferred clinician visits. 
 
-Many researchers have noted that tickborne disease is on the rise. Climate change and global warming are frequently speculated to be the likely culprit for the increase in Lyme disease infections (and other tickborne diseases). The warmer temperatures have been better for tick reproduction and have increased their survivability during the winter. Troy Cullen wrote an article about this issue [New Jersey Hills](https://www.newjerseyhills.com/echoes-sentinel/opinion/letters_to_the_editor/letter-climate-change-and-lyme-disease-how-global-warming-is-already-wreaking-havoc-on-new/article_9e06ed84-676b-5c4a-9d7c-c82d2ef05387.html). 
+Many researchers have noted that tickborne disease is on the rise. Climate change and global warming are frequently speculated to be the likely culprit for the increase in Lyme disease infections (and other tickborne diseases). The warmer temperatures have been better for tick reproduction and have increased their survivability during the winter. Troy Cullen from William & Mary wrote an [article](https://www.newjerseyhills.com/echoes-sentinel/opinion/letters_to_the_editor/letter-climate-change-and-lyme-disease-how-global-warming-is-already-wreaking-havoc-on-new/article_9e06ed84-676b-5c4a-9d7c-c82d2ef05387.html) about this issue. 
 
 ## Additional Interest: NLP of Documented Adverse Reactions
 
-Additional data-visualization showcase using word clouds. The first shows the reactions listed by individuals having an adverse event during treatment. The second graphic shows the reactions listed by individuals having an adverse event during (non-tickborne) antibiotic treatment.
+Additional data-visualization showcase using word clouds. The first shows the reactions listed by individuals having an adverse event during treatment. The second graphic shows the reactions listed by individuals having an adverse event during (non-tickborne) antibiotic treatment. The font size of each term is chosen by the number of times the term appears in the documented reactions of the 149,497 case dataset.
 
-Tickborne Antibiotic Reactions  |  All Antibiotic Reactions
-:-------------------------:|:-------------------------:
-![](./svg/tick_wordcloud.svg)  |  ![](./svg/antibiotics_wordcloud.svg)
+## Tickborne Antibiotic Reactions Word Cloud
+<p align="center">
+<img src="./svg/tick_wordcloud.svg" width="800">
+</p>
 
-## Curious about my data processing & calculations? 
+## All Antibiotic Reactions Word Cloud
+<p align="center">
+<img src="./svg/antibiotics_wordcloud.svg" width="800">
+</p>
+
+## Curious About my Data Processing & Calculations? 
 
 Everything computed is publically available on my Data-Viz GitHub repository, which you can access here: 
 
