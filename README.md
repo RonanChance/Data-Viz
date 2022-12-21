@@ -1,6 +1,6 @@
 # Tickborne Disease: Hospitalization Risk ![slowsmalltick >](https://user-images.githubusercontent.com/43863449/208802838-895c4761-872b-4a04-a877-bd04e7795f69.gif)
 
-This research aims to critically assess the adverse effects of antibiotic treatment for tickborne disease. Through the use of precise data visualizations, I hope to shed light on the threat that tickborne illnesses pose to our society, and in doing so, help contribute to the formation of future health treatments. A substantial number of people are currently struggling with these zoonotic, tickborne infections. Many do not recover in the manner that medical professionals expect, leaving them searching for relief from their unrelenting symptoms. These are the individuals most at risk of experiencing a dangerous, sometimes life-threatening, adverse event from extended antibiotic treatment. The data for this project was obtained from the FAERS database (FDA Adverse Events Reporting System) at [FIS FDA](https://fis.fda.gov). 
+This research aims to critically assess the adverse effects of antibiotic treatment for tickborne disease. Through the use of precise data visualizations, I intend to shed light on the threat that tickborne illnesses pose to our society, and in doing so, help contribute to the formation of future health treatments. A substantial number of people are currently struggling with these zoonotic, tickborne infections. Many do not recover in the manner that medical professionals expect, leaving them searching for relief from their unrelenting symptoms. These are the individuals most at risk of experiencing a dangerous, sometimes life-threatening, adverse event from extended antibiotic treatment. The data for this project was obtained from the FAERS database (FDA Adverse Events Reporting System) at [FIS FDA](https://fis.fda.gov). 
 
 In this research I define tick-borne disease as any of the following:
 - Lyme Disease (any Borrelia)
@@ -36,7 +36,7 @@ The ultimate questions & goals this project seeks to address are:
 
 ## Data and Methods
 
-Data was aggregated by querying the FDA FAERS system for each respective antibiotic and viewing the ‘Listing of Cases’ option. This option provides an excel sheet with information on each adverse reaction to the specified antibiotic. By repeating this process for each antibiotic, I collected excel sheets that could be put into pandas data frames in python. After joining them, 149,497 individual cases comprise my current dataset. Further processing was done by extracting only the case reports related to tickborne disease. 
+Data was collected by querying the FDA FAERS system for each respective antibiotic and viewing the ‘Listing of Cases’ option. This option provides an excel sheet with information on each adverse reaction to the specified antibiotic. By repeating this process for each antibiotic, I aggregated the excel sheets and put them into pandas data frames in python. Joining them together and removing duplicates forms the 149,497 individual cases that comprise my current dataset. Further processing was done by extracting only the case reports related to tickborne disease. 
 
 ## Summary Statistics
 
