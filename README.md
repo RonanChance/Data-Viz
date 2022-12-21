@@ -1,4 +1,4 @@
-# An Analysis of Tickborne Disease Treatment ![slowsmalltick >](https://user-images.githubusercontent.com/43863449/208802838-895c4761-872b-4a04-a877-bd04e7795f69.gif)
+# Tickborne Disease: The Risks of Antibiotic Treatment ![slowsmalltick >](https://user-images.githubusercontent.com/43863449/208802838-895c4761-872b-4a04-a877-bd04e7795f69.gif)
 
 This research aims to critically assess the adverse effects of antibiotic treatment for tickborne disease. Through the use of precise data visualizations, I hope to shed light on the threat that tickborne illnesses pose to our society, and in doing so, help contribute to the formation of future health policies. Countless people are currently struggling with these zoonotic, tickborne infections. Many do not recover in the manner that medical professionals expect, leaving them searching for relief from their unrelenting symptoms. These are the individuals most at risk of experiencing a dangerous, sometimes life-threatening, adverse event from extended antibiotic treatment. The data for this project was obtained from the FAERS database (FDA Adverse Events Reporting System) at [FIS FDA](https://fis.fda.gov). 
 
